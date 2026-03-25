@@ -77,7 +77,7 @@ const Contact = () => {
             <h3 className={styles.infoTitle}>Let's talk about everything!</h3>
             <p className={styles.infoText}>
               Feel free to reach out if you have any projects, assignments, or ideas you'd like to collaborate on. I'm
-              always open to new opportunities and bringing fresh ideas to life.
+              always open to new opportunities and bringing fresh ideas to life or just a new lease on it. 
             </p>
 
             <div className={styles.contactDetails}>
