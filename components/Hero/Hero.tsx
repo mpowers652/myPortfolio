@@ -37,17 +37,16 @@ const Hero = () => {
           <div className={styles.textContent}>
             <p className={styles.greeting}></p>
             <h1 ref={titleRef} className={styles.title}>
-              Mykhail Okhrimenko
+              Stephen Cacouris
             </h1>
             <h2 className={styles.subtitle}>
               <span className={styles.typingText}>
-                .Net Full Stack Developer <span className={styles.separator}>|</span> Blazor Next.js  {" "}
-                <span className={styles.separator}> / </span> AI-Powered SaaS 
+                Senior Software Engineer <span className={styles.separator}>|</span> Next.js  {" "}
+                <span className={styles.separator}> | </span>  <span className={styles.highlight}> Full-Stack </span> Expert
               </span>
             </h2>
             <p className={styles.description}>
-             I create dynamic, Azure-powered SaaS platforms that merge elegant front-end design with robust ASP.NET back-end logic.
-             Focused on Blazor and Angular.js to craft seamless, intelligent user experiences.
+             Senior Software Engineer with 10 years of experience building, scaling, and operating production backend systems in high-growth and enterprise environments.
             </p>
 
             <div className={styles.buttons}>
@@ -68,7 +67,7 @@ const Hero = () => {
               <div className={styles.imageBorder}></div>
               <Image
                 src="/image/MyPic.png"
-                alt="Misha"
+                alt="Stephen Cacouris"
                 width={500}
                 height={500}
                 className={styles.image}
