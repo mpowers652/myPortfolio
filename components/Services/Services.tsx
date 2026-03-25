@@ -40,11 +40,11 @@ const Services = () => {
   const services: Service[] = [
     {
       icon: <Code2 size={40} />,
-      title: "Full-Stack .NET Development",
-      description: "Building modern, scalable, and high-performance web and SaaS applications using ASP.NET Core, Blazor, and Angular.js.",
+      title: "Full-Stack Development",
+      description: "Building modern, scalable, and high-performance web and SaaS applications using ASP.NET Core, Next.js, and Python",
       features: [
         "End-to-end architecture, development, and deployment",
-        "ASP.NET Core, Blazor, and Angular.js expertise",
+        "ASP.NET Core, Next.js, and Python expertise",
         "Clean code and scalable system design",
         "Integration with SQL Server and PostgreSQL",
         "Microservices and RESTful API development",
@@ -75,23 +75,11 @@ const Services = () => {
       ],
     },
     {
-      icon: <Brain size={40} />,
-      title: "AI-Powered Applications",
-      description: "Integrating intelligent features into SaaS systems using AI and ML models.",
-      features: [
-        "Predictive analytics and recommendation engines",
-        "AI-driven user experience optimization",
-        "NLP and data-driven automation",
-        "AI API integration (OpenAI, Azure Cognitive Services)",
-        "Real-time data insights and dashboards",
-      ],
-    },
-    {
       icon: <Globe size={40} />,
       title: "Frontend Development",
       description: "Delivering responsive, modern, and user-friendly interfaces across devices.",
       features: [
-        "Blazor, Angular.js, and Next.js frontends",
+        "Node.js and Next.js frontends",
         "TailwindCSS for responsive UI design",
         "Component-based architecture",
         "Performance and accessibility optimization",
@@ -103,7 +91,7 @@ const Services = () => {
       title: "Backend & Database Systems",
       description: "Designing efficient and secure backend systems with clean architecture and strong data integrity.",
       features: [
-        "C# and .NET Core backend development",
+        "C#, Python, Java, and .NET Core backend development",
         "Entity Framework and Prisma ORM",
         "Database design with SQL Server and PostgreSQL",
         "Microservices and modular APIs",
