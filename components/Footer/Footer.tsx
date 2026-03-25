@@ -12,10 +12,10 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles.about}>
             <Link href="/" className={styles.logo}>
-              <span>Mykhail</span>Okhrimenko
+              <span>Stephen</span>Cacouris
             </Link>
             <p>
-              ASP.NET Full-Stack Developer | Blazor, Next.js, Azure-Integrated SaaS Platform
+              Senior Software Engineer · Back End Developer · Software Engineer · Distributed Control System Engineer · Platform Engineer
             </p>
             <div className={styles.social}>
               <Link
@@ -27,14 +27,14 @@ const Footer = () => {
                 <Github size={20} />
               </Link>
               <Link
-                href=""
+                href="https://www.linkedin.com/in/senior-stephen-cacouris/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
               </Link>
-              <Link href="mishakarnic@gmail.com" aria-label="Email">
+              <Link href="sr.stephencacouris@gmail.com" aria-label="Email">
                 <Mail size={20} />
               </Link>
             </div>
@@ -71,31 +71,36 @@ const Footer = () => {
             <h3>Services</h3>
             <ul>
               <li>
-                <Link href="#services">Full-Stack .NET Development</Link>
+                <Link href="#services">Full-Stack Development</Link>
               </li>
+
               <li>
-                <Link href="#services">Azure-Integrated SaaS</Link>
+                <Link href="#services">CI/CD deployment</Link>
               </li>
               
               <li>
-                <Link href="#services">AI-Powered Applications</Link>
+                <Link href="#services">API management</Link>
               </li>
 
               <li>
                 <Link href="#services">Frontend Development</Link>
               </li>
 
-                            <li>
+              <li>
                 <Link href="#services">Backend Development</Link>
+              </li>
+
+              <li>
+                <Link href="#services">Cloud Solutions</Link>
               </li>
             </ul>
           </div>
 
           <div className={styles.contact}>
             <h3>Contact</h3>
-            <p>Kyiv, Ukranie</p>
-            <p>mishakarnic@gmail.com</p>
-            <p>+380 99 621 93 99</p>
+            <p>New York, NY</p>
+            <p>sr.stephencacouris@gmail.com</p>
+            <p>+1 (650) 307-5838</p>
             <Link href="#contact" className={styles.contactBtn}>
               Get In Touch
             </Link>
@@ -103,7 +108,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.bottom}>
-          <p>&copy; {currentYear} Mykhail. O. All rights reserved.</p>
+          <p>&copy; {currentYear} Stephen Cacouris. All rights reserved.</p>
           <div className={styles.bottomLinks}>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-of-service">Terms of Service</Link>
