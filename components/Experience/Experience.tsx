@@ -3,6 +3,9 @@ import styles from "./Experience.module.css"
 interface ExperienceItem {
   title: string
   company: string
+  website: string
+  location: string
+  summary: string
   period: string
   description: string[]
 }
@@ -17,46 +20,63 @@ interface EducationItem {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      title: "ASP.Net Full-Stack Web Developer",
-      company: "TechNova Solutions",
-      period: "Nov 2024 – Feb 2025",
+      title: "Senior Software Engineer",
+      company: "Bloomberg",
+      website: "https://www.bloomberg.com/",
+      location: "New York, NY",
+      summary: "Bloomberg is a global leader in business and financial information, delivering trusted data, news, and insights that bring transparency and efficiency, and fairness to market",
+      period: "Oct 2023 – Sep 2025",
       description: [
-        "Built modern, scalable, Azure-integrated SaaS applications using .NET Core, Blazor, Angular.js, and Python AI models.",
-        "Integrated Azure cloud services to enhance scalability and reliability of deployed applications."
+        "Designed and maintained high-throughput backend services supporting large-scale payment and financial workflows.",
+        "Built and optimized REST APIs handling high transaction volumes with strict reliability and latency requirements.",
+        "Improved system performance and resiliency through profiling, refactoring, and observability enhancements.",
+        "Collaborated with product, security, and infrastructure teams to deliver enterprise-grade backend features.",
+        "Participated in on-call rotations and led incident response for production systems."
       ],
     },
     {
-      title: "Full Stack Web Developer",
-      company: "KyivSoft Labs",
-      period: "Nov 2022 – May 2024",
+      title: "Software Engineer Backend",
+      company: "MongoDB",
+      website: "https://www.mongodb.com/",
+      location: "New York, NY",
+      summary: "MongoDB's mission is to empower innovators to create, transform, and disrupt industries by unleashing the power of software and data.",
+      period: "Aug 2020 – July 2023",
       description: [
-        "Developed and maintained .NET Core, Next.js, and Azure applications for healthcare and enterprise clients.",
-        "Optimized backend performance and frontend responsiveness, ensuring fast and scalable user experiences.",
+        "Developed backend services for customer-facing SaaS products.",
+        "Worked extensively with relational databases, schema migrations, and query optimization.",
+        "Contributed to service-oriented architecture and internal APIs.",
+        "Emphasized maintainable code, testing, and incremental system improvements.",
+        "Collaborated with frontend, product, and data teams."
       ],
     },
     {
-      title: "Frontend Developer",
-      company: "CreativeByte Agency",
-      period: "Sep 2021 – May 2022",
+      title: "Backend Developer",
+      company: "Flatiron Health",
+      website: "https://flatiron.com/",
+      location: "New York, NY",
+      summary: "Flatiron Health’s mission is to improve and extend lives by learning from the experience of every person with cancer.",
+      period: "Aug 2018 – July 2020",
       description: [
-        "Designed and developed modern, responsive interfaces using React, Next.js, and TailwindCSS.",
-        "Collaborated closely with designers and backend developers to ensure smooth integration and pixel-perfect implementations.",
+        "Built backend services handling millions of requests/day, reducing latency by 40%",
+        "Designed event-driven pipelines processing millions of records daily, improving throughput 3×.",
+        "Owned features end-to-end, ensuring reliability and high availability in production.",
+        "Reduced data failures by ~40% via validation, retry logic, and monitoring."
       ],
     }
   ]
 
   const education: EducationItem[] = [
     {
-      degree: "Bachelor of Computer Science",
-      Education: "National technical University of Ukraine (NTUU)",
-      period: "Sep 2020 - Jun 2024",
+      degree: "Master of Computer Applications",
+      Education: "New York University",
+      period: "2016 - 2018",
       description:
         "Studied modern web technologies and ASP.NET development, gaining experience in building web applications, SaaS platforms, and database systems.",
     },
     {
-      degree: "",
-      Education: "Novopecherska",
-      period: "Sep 2017 - May 2020",
+      degree: "Bachelor of Computer Science",
+      Education: "New York University",
+      period: "2012 - 2016",
       description:
         "Studied basic web technologies and software fundamentals, gaining theoretical and practical experience in programming, Python.",
     },
