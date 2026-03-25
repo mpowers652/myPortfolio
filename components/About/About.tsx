@@ -12,12 +12,11 @@ const About = () => {
             
             <div className={styles.bioContainer}>
               <p className={styles.bio}>
-                I am a ASP.NET Full-Stack Developer with 5+ years of experience building .NET Core, Blazor, Angular.js, Next.js, and Azure-integrated SaaS applications. 
-                I deliver end-to-end solutions, from architecture and backend APIs to responsive frontends, focusing on clean, maintainable, and scalable code.
-              </p>
-              <p className={styles.bio}>
-                My expertise includes C#, SQL Server, PostgreSQL, microservices, cloud (Azure, Docker, Kubernetes), and AI-powered SaaS applications. 
-                I combine the reliability of .NET with modern web innovation to create fast, secure, and high-performance applications that drive results.
+                Senior Software Engineer with 10 years of experience designing, building, and maintaining scalable backend systems in production environments.
+                Strong expertise in Python, Java, Go, C#, and Node.js, with deep experience in RESTful API design, distributed systems, and database-driven applications.
+                Proven track record of delivering high-availability services at scale, optimizing performance, and supporting mission-critical systems in fintech and SaaS environments. 
+                Experienced with AWS cloud infrastructure, containerization, CI/CD pipelines, and modern backend frameworks. 
+                Adept at collaborating across cross-functional teams, owning production systems, and driving reliable software delivery.
               </p>
             </div>
 
@@ -30,19 +29,19 @@ const About = () => {
                 <div className={styles.timelineItem}>
                   <div className={styles.timelineMarker}></div>
                   <div className={styles.timelineContent}>
-                    <h5>Senior Full Stack Developer at Softevate</h5>
-                    <p className={styles.timelinePeriod}>June 2022 - Present</p>
-                    <p>Built scalable Azure-integrated SaaS applications using .NET Core, Blazor, Angular.js, and Python AI models, ensuring high performance and reliability.</p>
+                    <h5>Senior Software Engineer at Bloomberg</h5>
+                    <p className={styles.timelinePeriod}>Oct 2023 - Sept 2025</p>
+                    <p>Designed and maintained high-throughput backend services supporting large-scale payment and financial workflows.</p>
                   </div>
                 </div>
 
                 <div className={styles.timelineItem}>
                   <div className={styles.timelineMarker}></div>
                   <div className={styles.timelineContent}>
-                    <h5>Freelance Developer</h5>
-                    <p className={styles.timelinePeriod}>October 2023 - Present</p>
+                    <h5>Software Engineer Backend at MongoDB</h5>
+                    <p className={styles.timelinePeriod}>Aug 2020 - July 2023</p>
                     <p>
-                      Developed and maintained .NET Core, Next.js, and Azure applications for healthcare and enterprise clients, optimizing backend and frontend performance.
+                      Developed backend services for customer-facing SaaS products.
                     </p>
                   </div>
                 </div>
@@ -50,9 +49,27 @@ const About = () => {
                 <div className={styles.timelineItem}>
                   <div className={styles.timelineMarker}></div>
                   <div className={styles.timelineContent}>
-                    <h5>B.S. Computer Science</h5>
-                    <p className={styles.timelinePeriod}>September 2021 - May 2025</p>
+                    <h5>Backend developer at Flatiron Health </h5>
+                    <p className={styles.timelinePeriod}>Aug 2018 - July 2020</p>
+                    <p>Built backend services handling millions of requests/day, reducing latency by 40%</p>
+                  </div>
+                </div>
+
+                <div className={styles.timelineItem}>
+                  <div className={styles.timelineMarker}></div>
+                  <div className={styles.timelineContent}>
+                    <h5>M.S. Computer Applications from New York University</h5>
+                    <p className={styles.timelinePeriod}>2016 - 2018</p>
                     <p>Designed responsive React and Next.js interfaces with TailwindCSS, collaborating with designers and backend developers for seamless integration.</p>
+                  </div>
+                </div>
+
+                <div className={styles.timelineItem}>
+                  <div className={styles.timelineMarker}></div>
+                  <div className={styles.timelineContent}>
+                    <h5>B.S. Computer Science from New York University</h5>
+                    <p className={styles.timelinePeriod}>2012 - 2016</p>
+                    <p>Studied basic web technologies and software fundamentals, gaining theoretical and practical experience in programming, Python.</p>
                   </div>
                 </div>
               </div>
