@@ -59,9 +59,9 @@ const Header = () => {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoIcon}>MK</span>
+          <span className={styles.logoIcon}>SC</span>
           <span className={styles.logoText}>
-            <span>Mykhail</span>Okhrimenko
+            <span>Stephen </span>Cacouris
           </span>
         </Link>
 
