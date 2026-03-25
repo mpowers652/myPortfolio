@@ -53,47 +53,41 @@ const Skills = () => {
 
   const skills: Record<SkillCategory, Skill[]> = {
     frontend: [
-      { name: "JavaScript", level: 90 },
       { name: "TypeScript", level: 85 },
       { name: "Next.js", level: 90 },
-      { name: "Angular", level: 85 },
-      { name: "Blazor", level: 85 },
+      { name: "FastAPI", level: 85 },
       { name: "Tailwind CSS", level: 90 },
-      { name: "SASS/SCSS", level: 85 },
     ],
+
     backend: [
-      { name: "Node.js", level: 85 },
+      { name: "Node.js", level: 95 },
+      { name: "Java", level: 95 },
+      { name: "Spring Boot", level: 90 },      
       { name: "Express", level: 85 },
-      { name: "Python", level: 80 },
+      { name: "Python", level: 90 },
+      { name: "Django", level: 90 },
+      { name: "Flask", level: 85 },
       { name: ".NET Core", level: 75 },
       { name: "ASP.NET", level: 85 },
       { name: "C#", level: 90 },
-      { name: "SQL Server", level: 80 },
       { name: "Microservices", level: 75 },
     ],
+
     database: [
       { name: "MongoDB",  level: 85 },
       { name: "MySQL", level: 80 },
       { name: "PostgreSQL", level: 85 },
-      { name: "Firebase", level: 75 },
       { name: "Redis", level: 75 },
-      { name: "Supabase", level: 70 },
     ],
-
-    ai: [
-      { name: "TensorFlow", level: 80 },
-      { name: "PyTorch", level: 75 },
-      { name: "Multiy-tenancy", level: 85 },
-      { name: "secure scalable applications", level: 80 },
-    ],
+    
     cloud: [
       { name: "AWS", level: 75 },
       { name: "Azure", level: 85 },
       { name: "Docker", level: 70 },
-      { name: "Kubernetes", level: 80 },
+      { name: "CI/CD Pipeline", level: 80 },
     ],
-  }
-
+  }  
+  
   return (
     <section id="skills" className={`section ${styles.skills}`} ref={sectionRef}>
       <div className="container">
@@ -122,12 +116,6 @@ const Skills = () => {
             Database
           </button>
 
-          <button
-            className={`${styles.categoryBtn} ${activeCategory === "ai" ? styles.active : ""}`}
-            onClick={() => setActiveCategory("ai")}
-          >
-            AI
-          </button>
           <button
             className={`${styles.categoryBtn} ${activeCategory === "cloud" ? styles.active : ""}`}
             onClick={() => setActiveCategory("cloud")}
