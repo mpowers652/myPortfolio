@@ -112,6 +112,32 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--soft-aqua), var(--pastel-violet));
+  color: var(--deep-midnight);
+  box-shadow: 0 4px 20px rgba(74, 222, 222, 0.35);
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.secondaryBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(74, 222, 222, 0.5);
+}
+
 .timeline {
   margin-top: 1rem;
 }
@@ -249,5 +275,10 @@
 
   .timelineMarker {
     left: -2rem;
+  }
+
+  .secondaryBtn {
+    padding: 0.85rem 1.75rem;
+    font-size: 1rem;
   }
 }
