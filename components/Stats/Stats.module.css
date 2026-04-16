@@ -7,7 +7,7 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 clamp(1rem, 5vw, 1.5rem);
 }
 
 .statsGrid {
@@ -71,8 +71,16 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .statsGrid {
     grid-template-columns: 1fr;
+  }
+
+  .statCard {
+    padding: 1.5rem;
+  }
+
+  .statValue {
+    font-size: 2rem;
   }
 }

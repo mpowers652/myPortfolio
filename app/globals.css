@@ -47,6 +47,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 html,
@@ -86,7 +89,7 @@ button {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 clamp(1rem, 5vw, 1.5rem);
 }
 
 @media (max-width: 480px) {

@@ -120,4 +120,23 @@
     flex-direction: column;
     gap: 0.3rem;
   }
+
+  .itemTitle {
+    font-size: 1rem;
+    word-break: break-word;
+  }
+
+  .timelineContent {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    padding-left: 1.5rem;
+  }
+
+  .timelineMarker {
+    left: -1.5rem;
+  }
 }
