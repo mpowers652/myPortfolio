@@ -26,7 +26,8 @@ const Header = () => {
         "technologies",
         "projects",
         "experience",
-        
+        "process",
+        "reviews",
         "contact",
       ]
 
@@ -106,6 +107,18 @@ const Header = () => {
             <li>
               <Link href="#projects" onClick={closeMenu} className={activeSection === "projects" ? styles.active : ""}>
                 Projects
+              </Link>
+            </li>
+
+            <li>
+              <Link href="#process" onClick={closeMenu} className={activeSection === "process" ? styles.active : ""}>
+                Process
+              </Link>
+            </li>
+
+            <li>
+              <Link href="#reviews" onClick={closeMenu} className={activeSection === "reviews" ? styles.active : ""}>
+                Reviews
               </Link>
             </li>
 
