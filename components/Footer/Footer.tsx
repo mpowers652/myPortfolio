@@ -50,16 +50,19 @@ const Footer = () => {
                 <Link href="#about">About</Link>
               </li>
               <li>
-                <Link href="#skills">Skills</Link>
+                <Link href="#experience">Experience</Link>
               </li>
               <li>
-                <Link href="#services">Services</Link>
+                <Link href="#skills">Skills</Link>
               </li>
               <li>
                 <Link href="#projects">Projects</Link>
               </li>
               <li>
-                <Link href="#experience">Experience</Link>
+                <Link href="#process">Process</Link>
+              </li>
+              <li>
+                <Link href="#reviews">Reviews</Link>
               </li>
               <li>
                 <Link href="#contact">Contact</Link>
@@ -99,8 +102,8 @@ const Footer = () => {
           <div className={styles.contact}>
             <h3>Contact</h3>
             <p>New York, NY</p>
-            <p>sr.stephencacouris@gmail.com</p>
-            <p>+1 (650) 307-5838</p>
+            <Link href="mailto:sr.stephencacouris@gmail.com">sr.stephencacouris@gmail.com</Link>
+            <Link href="tel:+16503075838">+1 (650) 307-5838</Link>
             <Link href="#contact" className={styles.contactBtn}>
               Get In Touch
             </Link>

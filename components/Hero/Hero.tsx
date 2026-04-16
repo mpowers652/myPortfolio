@@ -59,7 +59,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <h4>Email</h4>
-                    <p>sr.stephencacouris@gmail.com</p>
+                    <a href="mailto:sr.stephencacouris@gmail.com"><p>sr.stephencacouris@gmail.com</p></a>
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
                   <div>
                     <h4>Phone</h4>
-                    <p>+1 (650) 307-5838</p>
+                    <a href="tel:+16503075838"><p>+1 (650) 307-5838</p></a>
                   </div>
                 </div>
               </div>
