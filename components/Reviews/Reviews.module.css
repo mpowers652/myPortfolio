@@ -45,6 +45,13 @@
   position: relative;
 }
 
+@media (max-width: 480px) {
+  .card {
+    width: 280px;
+    padding: 1.25rem;
+  }
+}
+
 .card::before {
   content: "\201C";
   position: absolute;

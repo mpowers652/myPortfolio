@@ -140,7 +140,7 @@
 
 @media (max-width: 768px) {
   .projectsGrid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
@@ -151,5 +151,15 @@
   .categoryBtn {
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projectContent {
+    padding: 1.2rem;
+  }
+
+  .projectTitle {
+    font-size: 1.1rem;
   }
 }

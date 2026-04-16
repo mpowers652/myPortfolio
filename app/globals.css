@@ -89,6 +89,12 @@ button {
   padding: 0 var(--spacing-md);
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
 .section {
   padding: var(--spacing-3xl) 0;
   position: relative;
@@ -207,6 +213,14 @@ button {
 
   .section-subtitle {
     font-size: 1rem;
+    margin: -1rem auto var(--spacing-lg);
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: var(--spacing-lg) 0;
   }
 }
 

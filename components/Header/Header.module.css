@@ -159,9 +159,9 @@
     top: 0;
     right: -100%;
     width: 70%;
+    max-width: 320px;
     height: 100vh;
     background: rgba(15, 17, 26, 0.95);
-    /* backdrop-filter: blur(10px); */
     --webkit-backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
@@ -180,6 +180,16 @@
   }
 
   .navList li a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    width: 85%;
+  }
+
+  .logoText {
     font-size: 1.2rem;
   }
 }
