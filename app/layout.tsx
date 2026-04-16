@@ -27,11 +27,11 @@ const orbitron = Orbitron({
 })
 
 export const metadata: Metadata = {
-  title: "Misha - .NET Full Stack Developer | Portfolio",
+  title: "Stephen - Full Stack Developer | Portfolio",
   description:
-    "Misha is a .NET Full Stack Developer building modern web apps with Next.js, React, TypeScript, and Azure. Check portfolio projects, experience, and contact information.",
+    "Stephen is a .NET Full Stack Developer building modern web apps with Next.js, React, TypeScript, and Azure. Check portfolio projects, experience, and contact information.",
   keywords: [
-    "Misha",
+    "Stephen",
     ".NET Developer",
     "Full Stack Developer",
     "Next.js",
@@ -42,11 +42,11 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://appflow-theta.vercel.app/"),
   openGraph: {
-    title: "Misha - .NET Full Stack Developer | Portfolio",
+    title: "Stephen - Full Stack Developer | Portfolio",
     description:
-      "Misha is a .NET Full Stack Developer building modern web apps with Next.js, React, TypeScript, and Azure.",
+      "Stephen is a Full Stack Developer building modern web apps with Next.js, React, TypeScript, and Azure.",
     url: "https://appflow-theta.vercel.app/",
-    siteName: "Misha Portfolio",
+    siteName: "Stephen Portfolio",
     type: "website",
     locale: "en_US",
     images: [
@@ -54,15 +54,15 @@ export const metadata: Metadata = {
         url: "https://appflow-theta.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Misha Portfolio Open Graph Image",
+        alt: "Stephen Portfolio Open Graph Image",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Misha - .NET Full Stack Developer | Portfolio",
+    title: "Stephen - Full Stack Developer | Portfolio",
     description:
-      "Discover Misha's web development portfolio featuring Next.js, React, and Azure projects.",
+      "Discover Stephen's web development portfolio featuring Next.js, React, and Azure projects.",
     site: "@your_twitter_handle",
     creator: "@your_twitter_handle",
   },
@@ -86,9 +86,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable} ${orbitron.variable}`} suppressHydrationWarning>
       <head>

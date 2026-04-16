@@ -22,13 +22,13 @@ const Stats = () => {
     {
       icon: <Code size={32} />,
       value: 0,
-      label: "Perfect projects",
+      label: "Projects Delivered",
       increment: 1,
     },
     {
       icon: <Users size={32} />,
       value: 0,
-      label: "With Clients",
+      label: "Clients Worked With",
       increment: 1,
     },
     {
@@ -41,13 +41,13 @@ const Stats = () => {
     {
       icon: <Coffee size={32} />,
       value: 0,
-      label: "Office with coffee",
+      label: "Cups of Coffee",
       suffix: "+",
       increment: 10,
     },
   ]
 
-  const finalValues = [107, 41, 5, 1500]
+  const finalValues = [107, 41, 8, 1500]
   const [currentValues, setCurrentValues] = useState(stats.map(() => 0))
 
   useEffect(() => {

@@ -1,14 +1,11 @@
 import Hero from "@/components/Hero/Hero"
-import Skills from "@/components/Skills/Skills"
 import Projects from "@/components/Projects/Projects"
 import About from "@/components/About/About"
-import Experience from "@/components/Experience/Experience"
 import Services from "@/components/Services/Services"
-
-import Stats from "@/components/Stats/Stats"
-
 import Contact from "@/components/Contact/Contact"
 import ParticleBackground from "@/components/ParticleBackground/ParticleBackground"
+import Process from "@/components/Process/Process"
+import Reviews from "@/components/Reviews/Reviews"
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop"
 
 export default function Home() {
@@ -16,14 +13,11 @@ export default function Home() {
     <>
       <ParticleBackground />
       <Hero />
-      <Stats />
       <About />
-      <Experience />
-      <Skills />
       <Services />
-
       <Projects />
-
+      <Process />
+      <Reviews />
       <Contact />
       <ScrollToTop />
     </>

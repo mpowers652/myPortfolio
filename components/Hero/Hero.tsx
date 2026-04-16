@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import styles from "./Hero.module.css"
-import { ArrowDown, Download, Github, Linkedin, ExternalLink } from "lucide-react"
+import { ArrowDown, Mail, MapPin, Phone} from "lucide-react"
 
 const Hero = () => {
   const titleRef = useRef<HTMLHeadingElement>(null)
@@ -35,31 +35,45 @@ const Hero = () => {
       <div className={styles.container}>
         <div className={`${styles.content} ${isLoaded ? styles.loaded : ""}`}>
           <div className={styles.textContent}>
-            <p className={styles.greeting}></p>
             <h1 ref={titleRef} className={styles.title}>
               Stephen Cacouris
             </h1>
             <h2 className={styles.subtitle}>
               <span className={styles.typingText}>
-                Senior Software Engineer <span className={styles.separator}>|</span> Next.js  {" "}
-                <span className={styles.separator}> | </span>  <span className={styles.highlight}> Full-Stack </span> Expert
+                Senior Software Engineer <span className={styles.separator}>|</span> Backend
+                <span className={styles.separator}> | </span> <span className={styles.highlight}>Full-Stack</span>
               </span>
             </h2>
             <p className={styles.description}>
-             Senior Software Engineer with 10 years of experience building, scaling, and operating production backend systems in high-growth and enterprise environments.
+              7+ years building and scaling production backend systems across fintech, SaaS, and healthtech.
             </p>
 
             <div className={styles.buttons}>
               <Link href="#projects" className={styles.primaryBtn}>
                 View Projects
               </Link>
-              <Link href="/StephenCacouris.pdf" className={styles.secondaryBtn} download>
-                <Download size={16} />
-                Download Resume
-              </Link>
+              <div className={styles.contactDetails}>
+                <div className={styles.contactItem}>
+                  <div className={styles.iconWrapper}>
+                    <Mail size={20} />
+                  </div>
+                  <div>
+                    <h4>Email</h4>
+                    <p>sr.stephencacouris@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className={styles.contactItem}>
+                  <div className={styles.iconWrapper}>
+                    <Phone size={20} />
+                </div>
+                  <div>
+                    <h4>Phone</h4>
+                    <p>+1 (650) 307-5838</p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-
           </div>
 
           <div className={styles.imageContent}>

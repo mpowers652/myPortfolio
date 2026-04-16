@@ -46,7 +46,7 @@ const Experience = () => {
         "Worked extensively with relational databases, schema migrations, and query optimization.",
         "Contributed to service-oriented architecture and internal APIs.",
         "Emphasized maintainable code, testing, and incremental system improvements.",
-        "Collaborated with frontend, product, and data teams."
+        "Collaborated with frontend, product, and data teams to ship customer-facing features."
       ],
     },
     {
@@ -78,14 +78,14 @@ const Experience = () => {
       Education: "New York University",
       period: "2012 - 2016",
       description:
-        "Studied basic web technologies and software fundamentals, gaining theoretical and practical experience in programming, Python.",
+        "Studied software fundamentals and systems programming, with hands-on experience in algorithms, data structures, and Python.",
     },
   ]
 
   return (
     <section id="experience" className={`section ${styles.experience}`}>
       <div className="container">
-        <h2 className="section-title">Experience | Education</h2>
+        <h3 className="section-title">Experience | Education</h3>
 
         <div className={styles.content}>
           <div className={styles.experienceSection}>
